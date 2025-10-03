@@ -1,0 +1,1 @@
+# MinecraftLauncher-HMCL-Style
