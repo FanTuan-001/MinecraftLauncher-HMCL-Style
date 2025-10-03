@@ -1,0 +1,190 @@
+/* 主窗口样式 */
+.root {
+    -fx-background-color: 
+        linear-gradient(to bottom, #2c3e50, #34495e);
+    -fx-font-family: "Microsoft YaHei", "Segoe UI";
+}
+
+/* 标题栏样式 */
+.title-bar {
+    -fx-background-color: 
+        linear-gradient(to bottom, #34495e, #2c3e50);
+    -fx-padding: 8 12;
+    -fx-border-color: #1a252f;
+    -fx-border-width: 0 0 1 0;
+}
+
+.title-label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.title-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdc3c7;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-min-width: 30;
+    -fx-min-height: 25;
+}
+
+.title-button:hover {
+    -fx-background-color: rgba(255,255,255,0.1);
+}
+
+.title-button-close:hover {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+
+/* 侧边栏样式 */
+.sidebar {
+    -fx-background-color: 
+        linear-gradient(to right, #34495e, #2c3e50);
+    -fx-padding: 15 0;
+    -fx-border-color: #1a252f;
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 13px;
+    -fx-padding: 12 20;
+    -fx-alignment: center-left;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: rgba(52, 152, 219, 0.3);
+    -fx-text-fill: #ecf0f1;
+}
+
+.sidebar-button:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* 游戏列表样式 */
+.version-list {
+    -fx-background-color: 
+        linear-gradient(to bottom, #ecf0f1, #bdc3c7);
+    -fx-border-color: #95a5a6;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.version-list-cell {
+    -fx-padding: 12 15;
+    -fx-background-color: transparent;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 0 0 1 0;
+}
+
+.version-list-cell:selected {
+    -fx-background-color: 
+        linear-gradient(to right, #3498db, #2980b9);
+}
+
+.version-list-cell:hover {
+    -fx-background-color: 
+        linear-gradient(to right, #34495e, #2c3e50);
+}
+
+.version-name {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.version-list-cell:selected .version-name {
+    -fx-text-fill: white;
+}
+
+.version-type {
+    -fx-font-size: 11px;
+    -fx-text-fill: #7f8c8d;
+}
+
+.version-list-cell:selected .version-type {
+    -fx-text-fill: #ecf0f1;
+}
+
+/* 按钮样式 */
+.primary-button {
+    -fx-background-color: 
+        linear-gradient(to bottom, #3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: 
+        linear-gradient(to bottom, #2980b9, #2573a7);
+}
+
+.primary-button:disabled {
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: #7f8c8d;
+}
+
+.secondary-button {
+    -fx-background-color: 
+        linear-gradient(to bottom, #95a5a6, #7f8c8d);
+    -fx-text-fill: white;
+    -fx-padding: 8 16;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.secondary-button:hover {
+    -fx-background-color: 
+        linear-gradient(to bottom, #7f8c8d, #6c7b7d);
+}
+
+/* 详情面板样式 */
+.detail-panel {
+    -fx-background-color: 
+        linear-gradient(to bottom, #ecf0f1, #dde4e6);
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 20;
+}
+
+.detail-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.detail-value {
+    -fx-font-size: 13px;
+    -fx-text-fill: #34495e;
+}
+
+/* 进度条样式 */
+.progress-bar {
+    -fx-accent: #3498db;
+    -fx-background-color: #bdc3c7;
+}
+
+.progress-bar .track {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 2;
+}
+
+.progress-bar .bar {
+    -fx-background-color: 
+        linear-gradient(to right, #3498db, #2980b9);
+    -fx-background-radius: 2;
+}
